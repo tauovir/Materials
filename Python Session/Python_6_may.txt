@@ -1,0 +1,12 @@
+start the Python interpreter and display some messages.
+Print 20 times “python3” word. (Hint: use *)
+In the python shell define some variables and print their values and datatypes.
+Display number from 1-100 in python shell (Hint : range())
+Initialize two variables x, y. Perform addition, subtraction, multiplication
+
+Python File:
+start the Python interpreter and display some messages.
+Print 20 times “python3” word. (Hint: use *)
+In the python shell define some variables and print their values and datatypes.
+Display number from 1-100 in python shell (Hint : range())
+Initialize two variables x, y. Perform addition, subtraction, multiplication
