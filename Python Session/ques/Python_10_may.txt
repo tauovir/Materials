@@ -1,0 +1,33 @@
+1. 12 + 3*4 - 6/2
+2. 12+3*(4-6)/2
+3. 
+	a = 50
+	b = 60
+	c = a + b
+	z = 60/50
+
+print value and data type of a,b,c,z
+convert type of z to int
+
+4 . perform following operation:
+x = 50
+x +=10
+x -=30
+x **=2
+
+5.  x = 50, y = 50, z = 20
+check address of x ,y z
+is address of y and z is same?
+is address of x,and y is same ? 
+
+6. print the following statemtments:
+	m1,m2 = 2,6
+	m1,m2 = m2, m1 + 2
+	print(m1,m2)
+	
+7. write a program to obtain tempretuare in Celsius and convert it into Fahrenhite.
+	formula : F = c * 9/5 + 32
+8. write a program that take price and converts it into int ,float
+
+
+

@@ -1,21 +1,4 @@
-We cannot use a keyword as a variable name, function name or any other identifier
 
-Rules for writing identifiers
-Keywords cannot be used as identifier.
-
-id
-type
-import keyword
-print(keyword.kwlist)
-
-
-'assert
-'async', 
-'global', 
-'nonlocal', 
-'yield']
-
-=======================
 1.
 a. name = "Python"
 	print(name)
