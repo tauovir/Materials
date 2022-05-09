@@ -1,0 +1,53 @@
+We cannot use a keyword as a variable name, function name or any other identifier
+
+Rules for writing identifiers
+Keywords cannot be used as identifier.
+
+id
+type
+import keyword
+print(keyword.kwlist)
+
+
+'assert
+'async', 
+'global', 
+'nonlocal', 
+'yield']
+
+=======================
+1.
+a. name = "Python"
+	print(name)
+b. a = 10
+	b = 20
+	c= a + b
+	print(c)
+
+c. find out the data type of name and c variable. Hint(type)
+d . retrieve the addred of variable a and b
+e. m1 = "apple"
+	print(m1 * 20)
+
+f. a = 10
+	b = 15
+	display a^2,b^3
+
+2. write a python programe your school name, class and section separated by "-".
+3. declare literals as given below and check weather they are correct or not
+	a. first_name = "Rahul"
+	b. _last_name = "Kumar"
+	c. age20 = 20
+	d 20age = 20
+	e. -city = "Delhi"
+	f. break = "Break"
+	g. return = "my value"
+	
+4 declare two variables x,y by value 20,30,perfom below operation.
+	a. x+ y
+	b. y-x
+	c. result = x*2 + y*3
+	
+5.  Define numerical,string ,boolean and special literals.
+
+6 assign multiple vallue to multiple variables and display them : {Hint : x,y,z = 2,3,"name"}
