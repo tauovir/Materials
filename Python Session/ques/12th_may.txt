@@ -1,0 +1,19 @@
+======================STRING======================
+1. str1 = "python program"
+perform below operation:
+A.	print(str1[2:7])	
+B .print(str1[3:])
+C. print(str1[:2])
+D. print(str1[-7:])
+E: print(str1[-4:-1]
+
+2.  sr1 = " Learning python programming "
+A. find the lenght of string.
+B.  remove white spaces from left and right side,check length.
+C . convert str1 to lower and upper case.
+D.  find how many words are there. #split()
+
+3 Enter a string using input methed:
+A. check whether it digit
+B. alphanumeric
+

@@ -1,0 +1,19 @@
+==================List====================
+Suppose L=[10,["few","facts,"fun"], 3'Good']
+perform below operation
+i) L[3:]     (ii) L[::2]      (iii) L[1:2]      (iv) L [1][1]
+
+Q1) Write a program in Python to find the maximum element in the list entered by the user.
+
+Q2) WAP to display unique duplicate items of a given list .
+
+
+Q3) perform insert() and apppend() operation on a list.
+
+
+Q4) Write a program to calculate average of a given list of numbers.
+
+Q5) WAP in Python to delete all duplicate elements in a list.
+For example :
+If list is : [5,2,4,-5,12,2,7,4]
+After deleting duplicate elemets, new list should be : [5,2,4,-5,12,7] 

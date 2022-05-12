@@ -1,0 +1,13 @@
+1. Take two integres values from input function(),find which on is greater
+2. Check, entered number is odd or even?
+3.Take marks of five subjects from user,find average,if average > 50 then display pass else fail.[Max marks :100]
+4.Receive a character from a user,display whether it is vowel or constant.
+
+5. Receive your name,& display it 5 times using for and while loop
+6 . write a program to display numbers upto 100.
+7.write a program to display sum of even number up to number n entered by the user. 
+8. write a program to take a integer as x and display its table upto 10: format should be.
+	2*1 = 2
+	2*2 = 4
+	....
+	2*10 = 20
