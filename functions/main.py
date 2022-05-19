@@ -1,16 +1,19 @@
-# This is a sample Python script.
 
-# Press Shift+F10 to execute it or replace it with your code.
-# Press Double Shift to search everywhere for classes, files, tool windows, actions, and settings.
+def count1(n):
+    print(n)
+    if n>10:
+        return
 
+    count1(n+1)
 
-def print_hi(name):
-    # Use a breakpoint in the code line below to debug your script.
-    print(f'Hi, {name}')  # Press Ctrl+F8 to toggle the breakpoint.
+def factorial(n):
+    if n <=1:
+        return 1
+    else:
+        print(f"{n}*{n-1}= {n*(n-1)}")
+        fact =  n * factorial(n-1)
+        print("fact:",fact)
+    return fact
 
-
-# Press the green button in the gutter to run the script.
-if __name__ == '__main__':
-    print_hi('PyCharm')
-
-# See PyCharm help at https://www.jetbrains.com/help/pycharm/
+x = factorial(5)
+print(x)
