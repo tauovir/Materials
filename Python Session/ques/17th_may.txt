@@ -1,0 +1,39 @@
+1. d1={"name":"Ganga","city":"Mumbai","mobile":80105}
+	A. print(d1["name"])
+	B. print(d1["country"]
+	C. d1.items()
+	D.  d1.values()
+	E. d1.keys()
+	
+2. Create a set with following element(11,11,11,11,11}) and display it.
+
+3. d1={"name":"Ganga","city":"Mumbai","mobile":80105}
+	d2 = {"country":"India","capital": "Delhi"}
+	A. d1.update(d2)
+		print(d1)
+	B. print(d1.get("state","M.P"})
+	C. print(d1.pop("city")
+	D. d1["name"] = " Lavan"
+	E . print(d1.clear())
+	
+4. WAP to receive name, dop and city from user, store into dictionary  & display it.
+
+5.  data = {"fruit":["apple","orange","mango","price":[120,100,80]}
+	make new dictionary that should have fruit_name in upper case, and new_price = old_price + 50
+	example:
+		new_dict = {"fruit":["APPLE","ORANGE","MANGO","price":[170,150,130]}
+		
+
+
+6 . s = {1,2,3,5,10,50,2,3}, perform the following operation
+	print(len(s))
+	print(max(s))
+	print(100 in s)
+	s.discard(99)
+	s.remove(99)
+	
+7.  s1 = {1,2,3,5,6}, s2 = {2,3,20,30}
+	s1.union(s2)
+	
+	
+	

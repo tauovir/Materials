@@ -1,0 +1,184 @@
+{\rtf1\ansi\ansicpg1252\deff0\deflang1033{\fonttbl{\f0\fnil\fcharset0 Calibri;}}
+{\*\generator Msftedit 5.41.21.2510;}\viewkind4\uc1\pard\sa200\sl276\slmult1\lang9\b\f0\fs28 1. State whether the following statement are true of false.\par
+\fs22                                 \ul\fs28 list\par
+\ulnone 1. python lists are mutable.\par
+2. lists are depicted through curly brackets only.\par
+3. Extend function is used to add multiple items in a lists.\par
+                                           \ul tuples \ulnone\par
+4. An element in a dictionary  is a combination of key-value pair.\par
+5. we can repeat a key in dictionary.\par
+6. internally , dictionaries are indexed on the basis of values.\par
+7. In dictionary , two unique key  can  have the same values .\par
+8.  A tuple is a mutable data type.\par
+9. Lists can be used as keys in a dictionary .\par
+10. updating an element in a dictionary at runtime is possible.\par
+11. We can create immutable dictionaries in python.\fs36\par
+\fs28                                      \ul lists\par
+\ulnone 1. Consider the following :\par
+List ['h','o','i']\par
+The length  of the above list is :\par
+\b0 (a). 5                        (b). 3                       (c). 0                          (d). none of  these\par
+\b 2. The list L1 contains [3,4,5,6,6,8,0]\par
+What will be output of the following expression ?\par
+print(L1[-1]\par
+\b0 (a). 0                         (b). 3                       (c). 5                         (d).8\par
+\b 3. Which of the following statemants is correct about list?\par
+\b0 (a). List can contain values of mixed data type.\par
+(b). List can contain only interger values.\par
+(c). A list with no elements is called an empty list .\par
+(d). All of these\par
+\b 4. Consider the following lists:\par
+ L1=["this","is","a","list"]\par
+ L2=["this","is","another"]\par
+which of the following statements will result in an error?\par
+\b0 (a). L1=L2                                                         (b). L1.upper()\par
+(c). L2[1][1].upper()                                     (c). L2.upper()\par
+                        \ul\b Tuples\ulnone\b0\par
+\b 5.Which of the statement(s) is /are correct?\par
+\b0 (a). Python Dictionary is an unordered collection of items.\par
+(b). Python Dictionary is an mapping of unique keys to values.\par
+(c). Dictionary is mutable .\par
+(d). All of these \par
+\b 6. if tup=(20,30, 40,50), which of the following is incorrect?\par
+\b0 (a). print(tup[3])                                               (b). tup[2]=56\par
+(c). print(max(tup))                                          (d). print(len(tup))\par
+\b 7. Consider two tuples given below :\par
+      tup1=(1,2,4,3)\par
+      tup2=(1,2,3,4)\par
+what will the following statement print: print(tup1<tup2)\par
+\b0 (a). True                     (b). False                    (c). Error            (d).none of these \par
+\b 8. which function  returns the number of elements in the tuple?\par
+\b0 (a). len()                    (b). max()                   (c). min()              (d). count()\par
+\b 9.  keys of a Dictionary must be \par
+\b0 (a). similar                                                        (b). Unique \par
+(c). can be similar or unique                        (d). all of these\par
+\b 10. Which function is used to remove all items from a particular dictionary?\par
+\b0 (a).clear()                                                           (b). pop() \par
+(c). delete()                                                        (d). rem()\par
+\b\fs36 SOLVED QUESTIONS \par
+lists\par
+\fs28 1. write the output of the following :\par
+\b0 (a) str1='book'\par
+       print(list(str1))\par
+(b). L = [2,4,5,6,2,3,4,4,7]\par
+        count = L.count (4)\par
+        print(count)\par
+(c). L =[10, 45 ,  2, 20, 30 , 40]\par
+      L.sort()\par
+      print(L)\par
+      L.reverse()\par
+      print(L)\par
+(d). L = ['p',  'w',  'r',  'd', 'a']\par
+        L.remove('r')\par
+        ptint(L.pop())\par
+        del L[1]\par
+        print(L)\par
+(e). L1 = [10,20,30,40]\par
+        L1.clear()\par
+        print(L1)\par
+\b 2. WAP to display unique and duplicate items of a given list.\par
+Ans. \b0 L1=[2,7,1,4,9,5,1,4,3]\par
+          L2=[]\par
+          L3=[]\par
+          for i in L1:\par
+             if i not in L2:\par
+                L2.append (i)\par
+             else:\par
+             L3.append(i)\par
+          print(L2)\par
+          print(L3)\b\par
+3. WAP to enter a string and count the number of words in the given string .\par
+Suppose string is:\par
+i am fine\par
+output should be \par
+number of word =3\par
+Ans. \b0 str1=input("enter a sentence:")\par
+           L=str1.split ()\par
+           count+=1\par
+           for i in range(len(L)):\par
+              count+=1\par
+           print('number of word =', count)\b\par
+4. WAP to display frequencies of all the element of a list.\par
+Ans.\par
+5. WAP in python, where list 'L' is passed as an argument. display  those string which are string with 'A'.\par
+L=["RINKU","AUSHIM",  "VIJAYA", "AKHTAR", "LEENA", "TARUN", "AMAR"]\par
+Ans. \b0 L=["RINKU","AUSHIM",  "VIJAYA", "AKHTAR", "LEENA", "TARUN", "AMAR"]\par
+         count =0\par
+for i in L:\par
+       if i[0] in ('aA'):\par
+            count+=1\par
+                print(i)\par
+              print("apperaing " , count, "times")\par
+\ul\b Tuple\ulnone\b0\par
+\b 6. Write the output of the following codes :\par
+    \b0 (a). d1 =\{1:10,2 :20, 3:30,4:40\}\par
+            d2=\{5:50,6:60, 7:70\}\par
+             d1.update(d2)\par
+             print(d1)\par
+    (b). d1= \{1:10,2:20,3:30,4:40,5:50,6:60,7:70\}\par
+            d1.pop(5)\par
+            print(d1)\par
+     (c). d1=\{1:10,2:20,3:30,4:40,5:50,6:60,7 :70\}\par
+             len(d1)\par
+            d1.get(6,60)\par
+            d1[6] =65\par
+             d1[8]=35\par
+             print(d1)\par
+             d1.clear()\par
+             print(d1)\par
+\b 7. Write a python program  to display all the element of the following tuple except 'd'.\par
+\b0  t1=('w', 'o', 'r','d','s')\par
+\b 8. Write a python program to display to remove an element '3' from the following  tuple:   (imp)\par
+\b0    t1= (1,2,,3,4,5)\par
+\b 9. \b0 t1=(10,20,"book",30,9.5,"item",[12,13],(3,4),30,5,30)\par
+   \b Consider the above tuple 't1' and answer the following questions:\par
+\b0 (a). len(t1)                                          \par
+(b). t1\b  \b0 [:6]\par
+(c). t1.index (20)\par
+(d). t1[5:]\par
+\b 10. Write a python program to input 'n' names and phone number to store it in a dictionary and  print the phone number of a particular name.\par
+\b0 phone=dict()\par
+i=1\par
+n=int (input ("enter number of entries:"))\par
+while i<=n:\par
+  a=input("enter name:")\par
+  b=input("enter phone no:")\par
+  phone [a]=b\par
+  i = i+1\par
+l= phone .keys()\par
+x=input ("enter name to be searched:")\par
+for i in l:\par
+  if i==x:\par
+        print(x.":phone no is : "phone [i])\par
+        break\par
+else:\par
+   print(x, "does not exist")\par
+\b\fs36 UNSOLVED QUESTIONS\par
+                  \ul  lists\par
+\ulnone\fs28 1. What is the difference between insert() and append() methods of a list?\par
+2. Suppose \b0 L=[10, ["few", "facts", "fun"], 3,'Good']\par
+\b   Consider the above list and answer the following :\par
+\b0 (a). L[3:]                                        (b). L[::2]\par
+(c). L[1\fs36 :\fs28 2]                                     (d).  L[1][1]\par
+\b 3. Find  the output of the following :\par
+\b0 L1=[1,2,3]\par
+L2=[4,5,6]\par
+print(L1+list("45"))\par
+print(L1.pop())\par
+L1.remove(2)\par
+print(L1)\par
+L1.extend(L2)\par
+print(L2)\par
+\b 4. Suppose \par
+\b0 d1=\{1:'one',2:'two',3:'three', 4:'four'\}\par
+d2=\{5:'five', 6:'six'\}\par
+\b Writr the output of the following code:\par
+\b0 >>>d1.items()\par
+>>>d1.keys()\par
+>>>d1.values()\par
+>>>d1.update(d2)\par
+>>>len(d1)\b\par
+5. Write a program to input any values for two tuples. print it, interchange it, and then compare them.\b0\par
+ \par
+}
+ 
