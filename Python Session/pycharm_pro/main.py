@@ -80,11 +80,15 @@ def matrix():
     print("l5",l5)
 
 def dict_comp():
+    data = [
+        {"name" : "khan","price" : 20},
+        {"name": "amit", "price": 20},
+    ]
     d1 = {'a':10,"b":20,"c":30,"d":40}
     d2 = {key:val**2 for key,val in d1.items()}
     d2 = {key: val ** 2 for key, val in d1.items() if val > 20}
-
-    print(d2)
+    lis2 = [{"name" : item['name'].upper(),"price" : item['price'] + 10} for item in data]
+    print(lis2)
 
 def set_compre():
     l1 = [20,30,1,2,4,20,30,1,6]
@@ -99,7 +103,5 @@ if __name__ == "__main__":
     # dict_comp()
     # set_compre()
     # matrix()
-    import sys
-    print(sys.path)
-    pass
+    dict_comp()
 
