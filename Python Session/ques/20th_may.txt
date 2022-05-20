@@ -1,0 +1,44 @@
+
+1. WAP to make a list of 1-100 number using list comprehension.[hint use range() function]
+2. WAP to to create new set using list l1 = [10,20,2,20,10,1], using set comprehensiuon
+3. WAP to make a list of even_number using list comprehension.[hint use range(100) function]
+4. WAP to generate list of number in the range 2-80 that are divisible by 2 & 4.
+5.  data = [
+        {"museum" : "indian museum","ticket_price" : 20},
+        {"museum": "delhi science museum", "ticket_price": 25},
+		{"museum": "city museum", "ticket_price": 15},
+		{"museum": "local museum", "ticket_price": 22},
+    ]
+	make a new list that should contain museum name in upper case, and ticket_price = ticket_price +10
+	example : new_data = [
+	{"museum" : "INDIAN MUSEUM","ticket_price" : 30},
+	.......
+	]
+	
+
+6. Write a  function that takes two intergers positional argument and rest argument in variable-length
+positional argument. return the sum of integers.
+
+
+Write below function:
+		A. add_num(int_a,int_b) and return int_a + int_b
+		B. subtract_num(int_a,int_b),return
+			int_a - int_b if int_a> int_b
+			int_b - int_a  if int_a> int_a
+		C multiple (int_a,int_b) return int_a * int_b if int_a OR int_b not equal 0, else return -1
+	call all above function from main function
+		main:
+		add_num,subtract_num,multiple
+		def main():
+			add_num
+			subtract_num
+			multiple
+			
+			
+		
+		
+		
+			
+
+
+	
