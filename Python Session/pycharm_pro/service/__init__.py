@@ -1,0 +1,1 @@
+print("Service package initialize:",__name__)

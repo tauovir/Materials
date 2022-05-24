@@ -1,0 +1,4 @@
+
+PATH = "C:DRIVE"
+ACTIVE = 1
+INACTIVE = 0
