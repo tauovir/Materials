@@ -1,0 +1,32 @@
+1.WAP to create lambda function that takes two(x,y) integers/float value and return x+y.
+2. WAP to create lambda function that x as integer and return x^2
+	Syntax :  lambda arguments : expression
+	
+3. l1 = [10,20,2,3,5,6,8,9,7,25],make a new list thats contain all even number using filter function.
+4. l1 = [10,20,2,3,5,6,8,9,7,25],create new list by increasing list element by 2, using map function.
+5. create inner() function within outer() function,
+		A. call outer function.
+		B. call inner function within outer function
+		C. call inner() function out side of the outer function
+		
+6.create a module name operation.py that contains following functions.
+			A. add_num(*args) and return its sum
+			B. get_today_date(), return current date.
+			C.get_total_price(data),and return total price.
+			D. make_upper_case(name),and return name in upper_case
+			
+	now create a module service.py,& create main(),within service.py, call below function from main()
+	
+			A. s1 = add_num(2,10)
+			B. s2 = add_num([20,30,50,60,80])
+			C. current_date = get_today_date()
+			D. total price = get_total_price(data)
+			E. convert all fruit name in upper case,and make new list of dictionary.
+			
+			data = [
+				{"name":"apple","price":25},
+				{"name":"mango","price":30},
+				{"name":"orange","price":40}
+				]
+
+
