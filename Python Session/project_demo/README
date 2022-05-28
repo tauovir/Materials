@@ -2,3 +2,10 @@ SQLAlchmy:
 https://docs.sqlalchemy.org/en/14/core/engines.html
 Session:
 https://docs.sqlalchemy.org/en/14/orm/session_api.html
+
+
+1. Create virtaul environment
+ #python -m venv venv_test
+2. activate virtaul environment
+3. install required packages if need
+3. deactivate virtaul environmen

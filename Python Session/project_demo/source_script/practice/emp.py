@@ -1,15 +1,20 @@
 
 class Employee:
 
-    type = "RDW Employee"
+    type = "RDW Employee"  # class variable
 
     def __init__(self,name, age, salary):
-        print("I am going to initialized")
+        """
+        instance variable
+        :param name:
+        :param age:
+        :param salary:
+        """
 
-        self.name = name   # instance attribute
-        self.age = age
-        self.salary = salary
-        print(self.salary)
+        self.name = name  # public access
+        self._age = age   # protected member
+        self.__salary = salary   # Private member
+
 
 
     def show_me(self):
@@ -18,34 +23,41 @@ class Employee:
         :return:
         """
         self.add_incentive()
-        print(f"My name is {self.name}, I am {self.age} old, I am getting {self.salary}")
+        print(f"My name is {self.name}, I am {self._age} old, I am getting {self.__salary}")
 
     def add_incentive(self):
         """
         instance method
         :return:
         """
-        self.salary = self.salary  +500
+        self.__salary = self.__salary  +500
 
-    def show_cls(self):
-        print("employee type self:",self.type)
-        print("employee type class:",Employee.type)
+    @classmethod
+    def class_method(cls):
+        print(type(cls))
+        print(" I am i class method")
+
 
 
 
 
 if __name__ == "__main__":
 
-    obj = Employee(name="Rahul", age=25, salary=250000)
-    obj.show_me()
-    obj.type = "Some type"
-    obj.show_cls()
-    print("==============")
-    print(Employee.type)
+    obj = Employee(name="Rahul", age=25, salary=250002)
+
+    # obj.show_me()
+    # print(obj.__salary)
+    obj.class_method()
 
 
-    obj1 = Employee(name="Amit", age=26, salary=21000)
-    obj1.show_me()
-    obj.show_cls()
-    import datetime
-    print(datetime.date.today())
+
+
+
+
+    # Employee.class_method()
+    #vars, dir
+
+    # print(vars(obj))
+    # print(vars(Employee))
+    # print(dir(obj))
+    # print(dir(Employee))
