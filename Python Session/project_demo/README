@@ -9,3 +9,7 @@ https://docs.sqlalchemy.org/en/14/orm/session_api.html
 2. activate virtaul environment
 3. install required packages if need
 3. deactivate virtaul environmen
+
+
+# Exception hierarchy
+https://docs.python.org/3/library/exceptions.html

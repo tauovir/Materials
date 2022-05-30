@@ -99,6 +99,7 @@ if __name__=="__main__":
     # zero_div()
     # index_err()
     # multi_handl_v1()
-    multi_handl_v2()
+    # multi_handl_v2()
+
 
 

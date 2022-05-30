@@ -12,7 +12,7 @@ def rais_excep(a):
 
     if a <=0:
         raise ValueError('In Valid value provided.')
-    else:
+    else:0
         return a *3
 
 def account():
