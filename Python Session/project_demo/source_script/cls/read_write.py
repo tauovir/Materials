@@ -131,8 +131,6 @@ class ReadFile:
                 data = readobj.readlines()
                 writeobj.writelines(data)
 
-
-
         except Exception as e1:
             raise (e1)
         finally:

@@ -4,6 +4,12 @@ class ReadCsv:
     read_file = r"C:\Users\LENOVO\Desktop\Materials\Python Session\project_demo\source_script\cls\output\users.csv"
     write_file = r"C:\Users\LENOVO\Desktop\Materials\Python Session\project_demo\source_script\cls\output\write_users.csv"
     def read_csv(self):
+
+        """
+
+        To read a CSV file in Python, we can use the csv.reader()
+        :return:
+        """
         user_data = []
         with open(ReadCsv.read_file) as csv_file:
             csv_reader = csv.reader(csv_file, delimiter=',')
@@ -29,6 +35,10 @@ class ReadCsv:
             return user_data
 
     def write_csv(self):
+        """
+        To write to a CSV file in Python, we can use the csv.writer() function.
+        :return:
+        """
 
         user_data = []
         with open(ReadCsv.write_file, mode='a') as employee_file:

@@ -55,9 +55,20 @@ def sysntax_err():
         print("error Occured:",e)
 
 
-def a(a,b):
-    pass
+def test_ecp():
+    print("Program started")
+    try:
+        c = 10/5
+        print("Hi there")
+        # exit()
+        print("Try end")
+    except Exception as e:
+        print("Exception ocured")
 
+    else:
+        print("exception not coocured")
+    finally:
+        print("Finally resource released")
 
 if __name__ == "__main__":
     # calc()
@@ -66,4 +77,5 @@ if __name__ == "__main__":
     # clstree(BaseException,0)
     # print(sysntax_err())
     # built_err()
-    print(dir(locals()['__builtins__']))
+    # print(dir(locals()['__builtins__']))
+    test_ecp()

@@ -1,4 +1,4 @@
-from source_script.model.db_connection import DBConnection
+from source_script.model.db_connection import DBConnection,SQLLiteConnection
 
 class UserModel:
 
@@ -20,17 +20,34 @@ class UserModel:
         return user_data
 
     def create_user(self,tuple_data):
-        sql = f"INSERT INTO public.users(name, mobile, salary, created_at) VALUES {tuple_data};"
-        data = self.conn.execute(sql)
-        return True
 
+        sql = f"INSERT INTO users(name, mobile, salary, created_at) VALUES {tuple_data};"
+        self.conn.execute(sql)
+
+    def load_data(self):
+        import csv
+        read_file = r"C:\Users\LENOVO\Desktop\Materials\Python Session\project_demo\source_script\cls\output\user_data.csv"
+        with open(read_file) as csv_file:
+            csv_reader = csv.DictReader(csv_file, delimiter=',')
+            for row in csv_reader:
+               self.create_user((row['name'],row['mobile'],row['salary'],row['created_at']))
+               # self.create_user(tuple(row.values()))
+
+        print("data Loaded successfully")
 
 
 
 
 if __name__=="__main__":
+    import datetime as dt
+    data = ("Ganga", "1509870", 30000, dt.datetime.today().strftime("%Y-%m-%d"))
     db_obj1 = DBConnection()
+    # db_obj1 = SQLLiteConnection()
     conn = db_obj1.get_connection()
     obj = UserModel(connection=conn)
-    user_list = obj.get_users()
-    print(user_list)
+    # user_list = obj.get_users()
+    # obj.create_user(data)
+    # user_list = obj.get_users()
+    # print(user_list)
+    #===========
+    obj.load_data()
