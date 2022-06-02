@@ -1,0 +1,27 @@
+
+
+
+project_demo
+	source_script
+	
+		controller
+			__init__.py
+		model
+			__init__.py
+			
+		services
+			__init__.py
+			
+		practice
+			__init__.py
+		configuration
+			__init__
+			config.py
+			
+		__init__.py
+		
+	setup.py
+	dbvenv
+		
+		
+		

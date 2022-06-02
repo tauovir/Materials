@@ -1,0 +1,17 @@
+file1.txt
+I am making program to run code.
+Program is running.
+End the file contents.
+
+1. WAP read data from file1.text without using with clause.
+	hint : open & close method only
+	
+2. read file using with clause.
+3. read file file1.txt and write same content in file2.txt
+4. Read file user_data.csv and perform below operation.
+	Hint: use csv inbuilt_module
+	A. print number of rows and columns
+	B. print sum of salary
+	C . Creat list of dictionary
+	D. make name in upper case and increate salary by 999 and print it
+	E. Store D data in to postgres/Sqllite database.

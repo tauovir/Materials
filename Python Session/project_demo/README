@@ -9,7 +9,19 @@ https://docs.sqlalchemy.org/en/14/orm/session_api.html
 2. activate virtaul environment
 3. install required packages if need
 3. deactivate virtaul environmen
-
-
 # Exception hierarchy
 https://docs.python.org/3/library/exceptions.html
+
+1.Create project directory.
+2. create and activate virtual environment
+    A.create virtual env : python -m venv venv101
+    B Activate virtual env : .\venv101\Scripts\activate
+
+3 .install all dependencies
+
+4. run : python setup.py develop
+
+# Dump Project dependencies
+pip freeze > requ101.txt
+# Install dependencies
+pip install -r requirement.txt

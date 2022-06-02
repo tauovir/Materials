@@ -1,4 +1,5 @@
 from source_script.model.db_connection import DBConnection,SQLLiteConnection
+from source_script.configuration.config import FILE_PATH
 
 class UserModel:
 
@@ -26,11 +27,11 @@ class UserModel:
 
     def load_data(self):
         import csv
-        read_file = r"C:\Users\LENOVO\Desktop\Materials\Python Session\project_demo\source_script\cls\output\user_data.csv"
-        with open(read_file) as csv_file:
+
+        with open(FILE_PATH) as csv_file:
             csv_reader = csv.DictReader(csv_file, delimiter=',')
             for row in csv_reader:
-               self.create_user((row['name'],row['mobile'],row['salary'],row['created_at']))
+                self.create_user((row['name'],row['mobile'],row['salary'],row['created_at']))
                # self.create_user(tuple(row.values()))
 
         print("data Loaded successfully")

@@ -10,6 +10,7 @@ class UserController:
 
     def _get_date(self):
         return dt.datetime.today().strftime("%Y-%m-%d")
+
     def get_user_data(self):
         db_obj = DBConnection()
         db_connection = db_obj.get_connection()
@@ -27,21 +28,6 @@ class UserController:
 
         return {"data": data, "status": 1, "msg": "User added successfully"}
 
-    def lite_get_user_data(self):
-        db_obj = SQLLiteConnection()
-        db_connection = db_obj.get_connection()
-        user_obj = UserModel(connection=db_connection)
-        return user_obj.get_users()
-
-    def lite_add_user(self):
-        db_obj = SQLLiteConnection()
-        db_connection = db_obj.get_connection()
-        data = ("Banana", "502033448", 50000,self._get_date())
-        user_data = UserModel(connection=db_connection).create_user(data)
-        print("db_obj11:", db_obj.conn)
-        db_obj.close_connection()
-        print("db_obj22:", db_obj.conn)
-        return {"data": data, "status": 1, "msg": "User added successfully"}
 
 
     def add_user_from_csv(self):

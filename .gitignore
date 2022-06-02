@@ -1,5 +1,6 @@
 *lock*
 *.idea
+*.checkpoint
 venv
 *__pycache__
 venv310

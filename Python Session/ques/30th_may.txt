@@ -1,0 +1,23 @@
+1. WAP program to catch ZiroDivision Error.
+2.l1 = [10,20,30,50], try to get element of 6th position,handle the exception in below fasion
+
+	statements:
+		A. l1[6],
+		B. l1[0]/0
+		C. import csv22
+	try:
+	
+	except error1
+		send_notification_to_manager()
+	except error2
+		send_notification_to_supervisor()
+	except error3
+		send_notification_to_tl()
+	else:
+		send_email_to_seurs
+	finally:
+		release_resource()
+
+3. List all user from postgres/SQLite and display them.
+4. List all user who are getting salary > 25000
+5. Add new user to database(Postgres/SQLite_)
