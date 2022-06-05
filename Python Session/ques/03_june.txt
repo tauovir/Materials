@@ -1,0 +1,28 @@
+1. WAP to install numpy in jupyter notebook
+2. WAP to create 1-D array named A1 between(1-12 num) and perform below opearion
+	A. check data type of A1 (hint: dtype)
+	B. Check shape of A1	( hint: shape)
+	C. Check size of A1		(hint: size)
+	D. Check dimenson of A1	(hint ndim)
+	E. check each item size		(hint:itemsize)
+	
+3 . Creat 2-D array of size 5,3 name A2, perform below task:
+	A. Check size of A2 
+	B. Check shape of A2
+	C. if dtype is int ,change it to float.
+	D. print total element of A2.
+	
+		
+4. create zeros ones, twos, threes arrays, shape should be (5,3)
+	hint: zeros,ones
+	
+5. Create 1-D array of size 30 element,reshape it in below shape.
+		Hint: a1.reshape(row,col)
+		A. 10 rows ,3 columns
+		B. 3 rows, 10 columns
+		C. 15 rows,2 columns
+
+6. Create tow numpy arrays m1,m2 with same shape and perfomr below operation.
+		A. m1+m2
+		B. m1 - m2
+		C. m1 * m2
