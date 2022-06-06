@@ -1,0 +1,26 @@
+1. install pandas package in jupyter notebook
+2.Create a simple series 
+3 . create below series using numpy:
+	A. series with value : 10,20,30,40
+	B. using np.arange function
+	C. using np.ones function
+4.Create Series from dictionary:
+	dict= {"id" : 101,"name" : "Amit","city" :"mumbai","mobile" : 989925014}
+	
+	
+5. Create series with below data and index
+	data = [10,20,30], index = ['a','b','c']
+6. using below two series perform below operation:
+	s1 = pd.Series([1,2,3,4,5], index = ['a','b','c','d','e'])
+	s2 = pd.Series([10,20,-10,-50,100], index = list('xyace'))
+	
+	A. s1 + s2
+	B. s1 * s2
+	D. s1.add(s2, fill_value = 10)
+	E. s1.mul(s2, fill_value = 2)
+7. Create data from using below ways:
+	A. List of dictionary
+	B. using Dictiinary of list
+	C. Using Series
+	E. Show datafram data using head and tail function
+
