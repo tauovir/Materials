@@ -1,0 +1,34 @@
+dict_list = {
+    "id" : [101,102,103,104,105,106],
+    "name" : ["apple","orange","mango","date","banana","pineapple"],
+    "price" : [120,130,140,150,160,170],
+    "city" :["meerut","kanpur","mumbai","delhi","indore","goa"],
+    "state" :["up","mp","maharashtra","kerala","gujrat","asam"],
+    "country" : "india"}
+1. create data frame using above data name should be data
+2. Check the below attributes of data Frame
+	A. check columns attribute
+	B. check dtypes attribute
+	C.	check shape attribute
+	
+3. perform the below operations
+	A. data.index = list('abcdef')
+	B. data.loc['b','city']
+	C.  data.loc['b':'e',:]
+	D. data.loc[:,:]
+	E. data.loc[['a','c'],['id','city']]
+	F. data.iloc[1,3]
+	G. data.iloc[:,[0,3]]
+	H. data.at['b','price'], data.iat[3,3]
+
+4. Perform the below opearion.
+	A. Get all records that have price < 150   #Hint data[data['column'] > 150]
+	B add one more columns : color: ["red","green","blue","red","green","blue"]
+	C. Get all records that have price >140 and color == 'green"
+	D. rename the column id:user_is, name: user_namne
+		Hint:[data.rename({"old_name":"new_name"})
+		
+5. Perform  the following operation:
+	A. write above data fraem into csv.
+	B. read the recent written csv file and add new column(status) and write it to execl
+	
