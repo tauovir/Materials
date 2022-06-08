@@ -21,9 +21,24 @@ class UserModel:
         return user_data
 
     def create_user(self,tuple_data):
-
-        sql = f"INSERT INTO users(name, mobile, salary, created_at) VALUES {tuple_data};"
+        sql = f"INSERT INTO users(user_name, pwd,name,city,mobile, created_at) VALUES {tuple_data};"
         self.conn.execute(sql)
+
+    def is_exist(self,username):
+        sql = f"select * from users where user_name = '{username}'"
+        data = self.conn.execute(sql)
+        user = data.fetchone()
+        if user:
+            return True
+        else:
+            return False
+
+    def _get_user(self, username):
+        sql = f"select * from users where user_name = '{username}'"
+        data = self.conn.execute(sql)
+        user = data.fetchone()
+        return user
+
 
     def load_data(self):
         import csv

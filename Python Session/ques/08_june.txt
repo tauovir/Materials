@@ -1,0 +1,26 @@
+
+1. Read sample data & store it in main_data
+2. Perform the below operation
+	A.check shape of main_data
+	B.check Number of columns in main_data
+	C. get insight of this data using describe
+		Hint: data.describe(), data['col'].describe()
+	D. chec missi value using isna or isnull function
+		Hint:data.isna() OR data['col'].isna()
+	E. get summ of all missing value.
+		Hint: data.isna().sum()
+	
+3. A. drop missing row that contain all missing value
+		Hint: data.dropna(how='all')
+		
+	fill missing value in main_data frame.
+	A. fill all missing value in society column with "Green area"
+		hnit: data['col'].fillna('Green area',inplace = True)
+	B. fill rest of all columns with either of the below option
+		method : {'backfill' 'ffill'}
+		Hint data['col'].fillna(method = 'backfill', inplace = True)
+4. Read data from postgres sql
+	Hint:user_data = pd.read_sql(sql_query,db_engine)
+	
+	
+	

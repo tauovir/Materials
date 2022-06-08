@@ -1,0 +1,48 @@
+
+1. if ages of Ram, Lakhan and Shayam are input through the keyboard,WAP to determine who is the youngest
+of the three.
+
+2. Suppose a list has 20 numbers. Write a program that removes all duplicate element from the list
+
+3. Suppose a list contain 5 strings. WAP to convert all these string to upper case.
+		Note: Use list comprehension to do this
+		
+4. l1 = [10,20,30,50], try to get element of 6th position,handle the exception in below fasion
+
+	statements:
+		A. l1[6],
+		B. l1[0]/0
+		C. import csv22
+		
+5. Suppose a list contain several words, WAP to create new list that contain first character of each words.
+
+6. dict1 = {"name":"apple","price":150,"color":"read","id":101}, perform below operaion
+		A. get all keys and values of dictioinary
+		B. replace "apple" with "Mango"
+		C. add one more key-value "city":"Mumbai" to this dictioinary
+		D. dict2 = {"country":"India","grade":"A"}, upadte dict1 with dict2
+
+7. WAP to read a string fron keyboard,and create dictioinary containing frequence of each character
+occuring in the string.ex,str = "apple", dict1 = {'a':1,'p':2,'l':1,'e':1}
+
+8. Read sample.csv and create Pandas DataFrame name sales_data and perform the below opeartion
+		A.check
+			1. shape
+			2.data type of each columns
+			3.size of data frame
+			4. get the insight of numerical data sing describe function
+		B. Display 15 records of data frame.
+		C.Display number of missing value in each columm  {Hint: isna().sum()}
+		D. fill missing value
+		E. Display 5th-15th row and 5 columm {HInt loc/iloc} 
+		F. add one more column 'bhk' that contain integer value of size column.
+			Hint size = 2 BHK, bhk = 2
+		G. dump sales_data into csv/excel file
+9.Receive choice from user and perfom below operation as per choice.
+
+		A.Enter 1 to add two number:	{when user enter 1, take two number and perfomr addition}
+		B. Enter 2 to subtract number	{when user enter 2, take two number and perfomr subtraction}
+		C.Enter 3 print table 			{when user enter 3, take a number and print table}
+		D. Enter -1 to exit program
+		
+

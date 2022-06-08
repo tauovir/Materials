@@ -39,7 +39,7 @@ def main(conn):
         ddl = func()
         conn.execute(ddl)
 
-    print("Program loaded successfully")
+    print("====DB schema Created Successfully===")
 
 
 if __name__ =="__main__":
