@@ -1,4 +1,4 @@
-from source_script.model.db_connection import DBConnection,SQLLiteConnection
+
 from source_script.configuration.config import FILE_PATH
 
 class UserModel:
@@ -22,6 +22,10 @@ class UserModel:
 
     def create_user(self,tuple_data):
         sql = f"INSERT INTO users(user_name, pwd,name,city,mobile, created_at) VALUES {tuple_data};"
+        self.conn.execute(sql)
+
+    def delete_user(self,user_name):
+        sql = f"DELETE FROM users WHERE user_name ={user_name};"
         self.conn.execute(sql)
 
     def is_exist(self,username):
@@ -55,15 +59,4 @@ class UserModel:
 
 
 if __name__=="__main__":
-    import datetime as dt
-    data = ("Ganga", "1509870", 30000, dt.datetime.today().strftime("%Y-%m-%d"))
-    db_obj1 = DBConnection()
-    # db_obj1 = SQLLiteConnection()
-    conn = db_obj1.get_connection()
-    obj = UserModel(connection=conn)
-    # user_list = obj.get_users()
-    # obj.create_user(data)
-    # user_list = obj.get_users()
-    # print(user_list)
-    #===========
-    obj.load_data()
+    pass

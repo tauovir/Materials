@@ -1,5 +1,4 @@
 from source_script.model.db_connection import DBConnection
-from source_script.model.db_connection import SQLLiteConnection
 from source_script.model.user_model import UserModel
 import datetime as dt
 
