@@ -1,5 +1,0 @@
-This method is not entirely safe. If an exception occurs when we are performing some
-operation with the file, the code exits without closing the file.
-This way, we are guaranteeing that the file is properly closed even if an exception is raised that causes program flow to stop.
-Files are named locations on disk to store related information. They are used to permanently store data in a non-volatile memory (e.g. hard disk).
-Since Random Access Memory (RAM) is volatile (which loses its data when the computer is turned off), we use files for future use of the data by permanently storing them

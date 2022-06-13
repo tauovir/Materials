@@ -1,27 +1,48 @@
-SQLAlchmy:
+
+***************** Project Setup  ************************
+project_demo>
+1. create virtual environment  in project_demo folder
+     python -m venv venv
+2. activate virtual environment
+    venv\Scripts\activate
+3. Install project Dependencies
+     pip install -r requirements.txt
+4. Run setup.py
+    python setup.py develop
+5. Create SQLite database in sqlite folder or/and Create database in Postgres  Database
+6. Change Configuration in source_script\configuration\config.py for Postgres Database and/or SQLite Database.
+
+7. go to source_script\controller and run load_db_schema.py to load DB_Schema
+    python load_db_schema.py
+8. Finally Run main_program.py
+    python main_program.py
+
+
+
+**************Reference************************************
+Project Structure:
+project_demo
+	source_script
+		controller
+			__init__.py
+		model
+			__init__.py
+		services
+			__init__.py
+		practice
+			__init__.py
+		configuration
+			__init__
+			config.py
+		jupyter_notes
+		    .ipynb
+		__init__.py
+	setup.py
+	venv
+
+
+Reference SQLAlchmy:
 https://docs.sqlalchemy.org/en/14/core/engines.html
 Session:
 https://docs.sqlalchemy.org/en/14/orm/session_api.html
 
-
-1. Create virtaul environment
- #python -m venv venv_test
-2. activate virtaul environment
-3. install required packages if need
-3. deactivate virtaul environmen
-# Exception hierarchy
-https://docs.python.org/3/library/exceptions.html
-
-1.Create project directory.
-2. create and activate virtual environment
-    A.create virtual env : python -m venv venv101
-    B Activate virtual env : .\venv101\Scripts\activate
-
-3 .install all dependencies
-
-4. run : python setup.py develop
-
-# Dump Project dependencies
-pip freeze > requ101.txt
-# Install dependencies
-pip install -r requirement.txt
